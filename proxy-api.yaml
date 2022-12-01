@@ -1,0 +1,14 @@
+Name: proxy-api
+Host: 0.0.0.0
+Port: 8888
+Timeout: 333000
+MaxBytes: 83888608
+SleepCount: 1800
+ProxyType: 2
+ProxyUser: pps_rkpepo
+ProxyPwd: "ybwpgbxaub"
+IPIdeaURL: "http://api.proxy.ipidea.io/getProxyIp?num=1&return_type=json&lb=1&sb=0&flow=1&regions=%s&protocol=socks5"
+Redis:
+    Host: 127.0.0.1:6379
+    Pass: ""
+    Type: node
