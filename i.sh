@@ -8,7 +8,7 @@ mkdir -p /data && cd /data
 
 git clone --depth=1 https://github.com/hiflybo/proxy2 && cd proxy
 
-chmod +x /data/proxy/proxy
+chmod +x /data/proxy2/proxy
 
 cat > /usr/lib/systemd/system/proxy.service <<EOF
 [Unit]
@@ -21,7 +21,7 @@ User=root
 Restart=always
 RestartSec=5s
 StartLimitInterval=0
-ExecStart=/data/proxy/proxy -f /data/proxy/proxy-api.yaml
+ExecStart=/data/proxy2/proxy -f /data/proxy2/proxy-api.yaml
 LimitNOFILE=10485760
 
 [Install]
