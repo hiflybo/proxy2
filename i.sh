@@ -6,7 +6,7 @@ apt install redis wget git  -y
 
 mkdir -p /data && cd /data
 
-git clone --depth=1 https://github.com/hiflybo/proxy2 && cd proxy
+git clone --depth=1 https://github.com/hiflybo/proxy2 && cd proxy2
 
 chmod +x /data/proxy2/proxy
 
